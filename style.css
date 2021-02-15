@@ -1,0 +1,58 @@
+element.style{
+
+}
+:root{
+    --background-color: grey;
+    --hero-background-color: white;
+    --font-color:white;
+    
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Arial","Verdana","Gill Sans", "Noto Sans",sans-serif;
+    width:100%;
+    font-size: 18px;
+    background-color: grey;
+}
+
+main{
+    width:100%;
+    overflow: hidden;
+}
+
+header{
+        align-items:center;
+        color: white;
+        
+
+
+}
+
+header nav ul{
+    flex-wrap:wrap;
+    display:flex;
+    align-items:center;
+    list-style:none ;
+}
+    
+header nav ul li a{
+    padding:10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color:grey
+}
+
+h2{
+    color: white;
+    float: middle;
+    padding: 20px
+}
+
