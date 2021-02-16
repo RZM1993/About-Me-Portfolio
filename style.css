@@ -1,6 +1,6 @@
-element.style{
 
-}
+
+
 :root{
     --background-color: grey;
     --hero-background-color: white;
@@ -42,17 +42,52 @@ header nav ul{
     
 header nav ul li a{
     padding:10px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    color:grey
+    color:black
 }
 
 h2{
-    color: white;
-    float: middle;
-    padding: 20px
+    color: black;
+    position: absolute;
+    padding: 100px;
+    top: 50% ;
+    left: 25%;
+    font-size: 100px;
+    ;
+    
 }
+p{
+    text-align: center;
+}
+h3{
+    color:white;
+    padding: 20px;
+
+}
+
+h4{
+    color:white;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.information-body ul li{
+    list-style: none;
+    text-align: center;
+}
+.back{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.background{
+    width: 100%;
+}
+
 
