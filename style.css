@@ -3,7 +3,7 @@
 
 :root{
     --background-color: grey;
-    --hero-background-color: white;
+    --hero-background-color: rgba(68, 124, 207, 0.808) ;
     --font-color:white;
     
 }
@@ -17,17 +17,18 @@ body{
     font-family:"Arial","Verdana","Gill Sans", "Noto Sans",sans-serif;
     width:100%;
     font-size: 18px;
-    background-color: grey;
+    background-color: rgba(60, 106, 204, 0.815);
 }
 
 main{
-    width:100%;
+    width: 50%;
     overflow: hidden;
 }
 
 header{
-        align-items:center;
-        color: white;
+        align-items:flex-end;
+        color: black;
+      
         
 
 
@@ -42,7 +43,7 @@ header nav ul{
     
 header nav ul li a{
     padding:10px;
-    color: rgb(255, 255, 255);
+    color:black;
     text-decoration: none;
 }
 
@@ -50,7 +51,7 @@ nav ul li a:hover {
     color:black
 }
 
-h2{
+h1{
     color: black;
     position: absolute;
     padding: 100px;
@@ -86,8 +87,6 @@ h4{
 
 }
 
-.background{
-    width: 100%;
-}
+\
 
 
